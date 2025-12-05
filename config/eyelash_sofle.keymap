@@ -123,11 +123,11 @@
 
         tmux {
             bindings = <
-&trans  &trans  &trans      &trans    &trans          &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans      &tmux_up  &kp UP_ARROW    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &tmux_zoom  &trans    &tmux_sess      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans      &tmux_dn  &kp DOWN_ARROW  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans      &trans    &trans          &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &tmux_sess  &kp UP_ARROW    &tmux_up    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &tmux_zoom  &kp DOWN_ARROW  &tmux_dn    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans      &trans          &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans      &trans          &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans      &trans          &trans      &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "layer3";
